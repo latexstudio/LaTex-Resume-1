@@ -1,11 +1,11 @@
 \LoadClass{article}
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{cvclass}[2016/02/13 My CV class]
+\ProvidesClass{cvclass}[2016/12/19 My CV class]
 
 \RequirePackage{titlesec}
 \RequirePackage[hmargin=1.25cm, vmargin=0.9cm]{geometry}
 \RequirePackage[usenames,dvipsnames]{xcolor}
-\RequirePackage[hidelinks]{hyperref}
+\RequirePackage[colorlinks=true]{hyperref}
 \RequirePackage[absolute]{textpos}
 \RequirePackage[UKenglish]{babel}
 \RequirePackage[UKenglish]{isodate}
@@ -18,6 +18,11 @@
 \definecolor{headings}{HTML}{6A6A6A}
 \definecolor{subheadings}{HTML}{333333}
 
+\hypersetup{
+     colorlinks   = true,
+     linkcolor    = blue,
+     urlcolor     = blue
+}
 
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont{times.ttf}
